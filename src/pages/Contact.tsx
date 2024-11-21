@@ -124,8 +124,8 @@ const Contact = () => {
                         Adresse
                       </h3>
                       <p className="text-gray-600">
-                        123 Avenue des Champs-Élysées<br />
-                        75008 Paris, France
+                        54 Avenue de la Motte Picquet<br />
+                        75015 Paris, France
                       </p>
                     </div>
                   </div>
