@@ -35,7 +35,57 @@ export default {
           '100%': { transform: 'translateY(0)', opacity: '1' },
         },
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+            color: '#374151',
+            h2: {
+              color: '#111827',
+              fontWeight: '700',
+              fontSize: '1.5rem',
+              marginTop: '2rem',
+              marginBottom: '1rem',
+            },
+            h3: {
+              color: '#111827',
+              fontWeight: '600',
+              fontSize: '1.25rem',
+              marginTop: '1.5rem',
+              marginBottom: '0.75rem',
+            },
+            p: {
+              marginTop: '1rem',
+              marginBottom: '1rem',
+            },
+            ul: {
+              marginTop: '1rem',
+              marginBottom: '1rem',
+            },
+            li: {
+              marginTop: '0.5rem',
+              marginBottom: '0.5rem',
+            },
+            'ul > li': {
+              paddingLeft: '1.5rem',
+              position: 'relative',
+              '&::before': {
+                content: '""',
+                width: '0.375rem',
+                height: '0.375rem',
+                borderRadius: '50%',
+                backgroundColor: '#6366f1',
+                position: 'absolute',
+                left: 0,
+                top: '0.6875rem',
+              },
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
