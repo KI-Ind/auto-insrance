@@ -52,15 +52,21 @@ export default function BlogPost() {
               </div>
             </header>
 
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full h-96 object-cover rounded-lg mb-8"
-            />
-
-            <div className="prose prose-indigo max-w-none">
-              {article.content}
+            <div className="relative w-full h-96 mb-8">
+              <img
+                src={article.image}
+                alt={article.title}
+                className="w-full h-full object-cover rounded-lg"
+                onError={(e) => {
+                  e.currentTarget.src = 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80';
+                }}
+              />
             </div>
+
+            <div 
+              className="prose prose-indigo max-w-none"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+            />
 
             <footer className="mt-8 pt-8 border-t border-gray-200">
               <div className="flex flex-wrap gap-2">
