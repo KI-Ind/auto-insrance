@@ -8,6 +8,7 @@ const Home = lazy(() => import('../pages/Home'));
 const About = lazy(() => import('../pages/About'));
 const Products = lazy(() => import('../pages/Products'));
 const Blog = lazy(() => import('../pages/Blog'));
+const BlogPost = lazy(() => import('../pages/BlogPost'));
 const Comment = lazy(() => import('../pages/Comment'));
 const Comparateur = lazy(() => import('../pages/Comparateur'));
 const FAQ = lazy(() => import('../pages/FAQ'));
@@ -37,6 +38,7 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/comment-ca-marche" element={<Comment />} />
         <Route path="/comparateur" element={<Comparateur />} />
         <Route path="/faq" element={<FAQ />} />
