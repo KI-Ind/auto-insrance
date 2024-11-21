@@ -7,7 +7,7 @@ export const blogArticles: BlogArticle[] = [
     description: "Guide détaillé pour trouver l'assurance auto parfaite : comparaison des garanties, prix, et astuces pour économiser jusqu'à 40% sur votre prime.",
     date: "2024-03-15",
     author: "Marie Laurent",
-    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"",
     category: "Guides",
     readTime: "8 min",
     content: `
