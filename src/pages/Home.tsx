@@ -9,7 +9,7 @@ const Home = () => {
     <PageTransition>
       <SEO
         title="1SwiS - Comparateur d'Assurance Auto Nouvelle Génération"
-        description="Trouvez la meilleure assurance auto grâce à notre comparateur intelligent alimenté par l'IA."
+        description="Comparez et trouvez l'assurance auto idéale en quelques clics grâce à notre comparateur intelligent alimenté par l'IA. Obtenez des devis personnalisés rapidement et économisez dès aujourd'hui !."
         path="/"
       />
       <Hero />
