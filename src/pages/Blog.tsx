@@ -16,7 +16,7 @@ const articles = [
   {
     title: "5 astuces pour réduire votre prime d'assurance",
     date: "5 Mars 2024",
-    image: "https://images.unsplash.com/photo-1559724087-75efa7f3c83e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1484136540910-d66bb475348d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     description: "Conseils pratiques pour optimiser votre budget assurance auto sans compromettre votre couverture."
   }
 ];
